@@ -4,7 +4,7 @@ import {FaTwitter, FaLinkedin, FaGithub, FaMedium} from 'react-icons/fa'
 const Hero = () => {
   return (
     <div className='w-full h-screen bg-[#f9f2ec] text-[#4d3319] font-serif flex justify-center items-center px-4'>
-        <div className='text-center bg-black py-8'>
+        <div className='text-center py-8'>
             <p className='text-lg'>Hi there! <br/> <span className='text-5xl sm:text-6xl font-semibold'>I'm Jackline Adhiambo</span></p>
             <p className="px-4 mb-3 max-w-lg mx-auto lg:mx-0 text-lg sm:text-xl">A Frontend Developer and a UI/UX Designer who designs and implement high end web application.</p>
             <a href="/" className="text-lg font-bold">My Resume</a>
