@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./components/Contact";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import { Navbar } from "./components/Navbar";
@@ -13,6 +14,7 @@ function App() {
       <Features/>
       <Skills />
       <Projects/>
+      <Contact/>
     </div>
   );
 }
