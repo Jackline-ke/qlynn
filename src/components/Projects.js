@@ -8,7 +8,7 @@ const Projects = () => {
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
             <div className='bg-[#f9f2ec] p-6 rounded-md'>
                 <div className='flex flex-col gap-2'>
-                    <img src={market} className="rounded"/>
+                    <img src={market} alt='project' className="rounded"/>
                     <h2 className='text-xl font-bold'>marketHub</h2>
                     <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <h3 className=''><span className='font-bold'>Stack/Tools:</span> React, Tailwind</h3>
@@ -16,7 +16,7 @@ const Projects = () => {
             </div>
             <div className='bg-[#f9f2ec] p-8 rounded-md'>
                 <div className='flex flex-col gap-2'>
-                    <img src={market} className="rounded"/>
+                    <img src={market} alt='project' className="rounded"/>
                     <h2 className='text-xl font-bold'>marketHub</h2>
                     <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <h3 className=''><span className='font-bold'>Stack/Tools:</span> React, Tailwind</h3>
@@ -24,7 +24,7 @@ const Projects = () => {
             </div>
             <div className='bg-[#f9f2ec] p-8 rounded-md'>
                 <div className='flex flex-col gap-2'>
-                    <img src={market} className="rounded"/>
+                    <img src={market} alt='project' className="rounded"/>
                     <h2 className='text-xl font-bold'>marketHub</h2>
                     <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <h3 className=''><span className='font-bold'>Stack/Tools:</span> React, Tailwind</h3>
