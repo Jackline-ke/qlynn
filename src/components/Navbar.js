@@ -11,7 +11,7 @@ export const Navbar = () => {
     <div className='fixed w-full bg-[#f9f2ec] px-8 py-4 md:px-16 text-[#4d3319] font-serif bg-opacity-70 shadow-md' style={{backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)'}}>
         <div className='flex justify-between items-center'>
             <h1>Qlynn</h1>
-            <div className='hidden md:flex gap-8 cursor-pointer'>
+            <div className='hidden lg:flex gap-8 cursor-pointer'>
                 <h2>Home</h2>
                 <Link><a href='features'><h2>Features</h2></a></Link>
                 <h2>Skills</h2>
@@ -19,7 +19,7 @@ export const Navbar = () => {
                 <h2>Contact</h2>
             </div>
             {/* humburger */}
-            <div onClick={handleNav} className='md:hidden z-10'>
+            <div onClick={handleNav} className='lg:hidden z-10'>
                 <FaBars className='cursor-pointer'/>
             </div>
             {/* mobile */}
