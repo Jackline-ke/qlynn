@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {FaBars} from 'react-icons/fa'
+import {Link} from 'react-scroll'
 
 export const Navbar = () => {
     const[nav, setNav] = useState(false)
@@ -7,12 +8,12 @@ export const Navbar = () => {
       setNav(!nav)
     }
   return (
-    <div className='fixed w-full bg-[#f9f2ec] px-4 py-4 md:px-16 text-[#4d3319] font-[Poppins] bg-opacity-70 shadow-md' style={{backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)'}}>
+    <div className='fixed w-full bg-[#f9f2ec] px-8 py-4 md:px-16 text-[#4d3319] font-[Poppins] bg-opacity-70 shadow-md' style={{backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)'}}>
         <div className='flex justify-between items-center'>
             <h1>Qlynn</h1>
             <div className='hidden md:flex gap-8 cursor-pointer'>
                 <h2>Home</h2>
-                <h2>Features</h2>
+                <Link><a href='features'><h2>Features</h2></a></Link>
                 <h2>Skills</h2>
                 <h2>Projects</h2>
                 <h2>Contact</h2>
