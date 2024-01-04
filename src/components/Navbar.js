@@ -20,10 +20,10 @@ export const Navbar = () => {
             </div>
             {/* humburger */}
             <div onClick={handleNav} className='lg:hidden z-10'>
-                <FaBars className='cursor-pointer'/>
+                <FaBars size={20} className='cursor-pointer'/>
             </div>
             {/* mobile */}
-            <div onClick={handleNav} className={nav ? 'overflow-hidden md:hidden ease-in duration-300 absolute text-[#f9f2ec] top-0 right-0 h-screen w-[40%] bg-[#4d3319]/90 px-4 py-16' : 'absolute left-[-100%] top-0 h-screen ease-in duration-500' }>
+            <div onClick={handleNav} className={nav ? 'overflow-hidden lg:hidden ease-in duration-300 absolute text-[#f9f2ec] top-0 right-0  w-[40%] bg-[#4d3319]/90 px-4 py-16' : 'absolute left-[-100%] top-0 h-screen ease-in duration-500' }>
                 <div  className='flex flex-col gap-4 cursor-pointer text-lg'>
                     <h2>Home</h2>
                     <h2>Features</h2>
