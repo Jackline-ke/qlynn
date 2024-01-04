@@ -3,7 +3,7 @@ import market from '../assets/marketHub.png'
 
 const Projects = () => {
   return (
-    <div className='py-12 w-full h-full text-[#4d3319] font-serif flex flex-col justify-center items-center px-8 md:px-48'>
+    <div className='w-full h-full text-[#4d3319] font-serif flex flex-col justify-center items-center px-8 md:px-48'>
         <h3 className='mb-8 text-4xl'>My <span className='font-bold'>Projects</span></h3>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
             <div className='bg-[#f9f2ec] p-6 rounded-md'>
