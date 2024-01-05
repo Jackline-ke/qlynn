@@ -8,7 +8,7 @@ const Hero = () => {
     <div id='home' className='w-full h-screen bg-[#f9f2ec] text-[#4d3319] font-serif flex justify-center items-center px-4'>
         <div className='text-center py-8'>
             <div className='flex items-center justify-center'>
-              <p>Hi there!</p>
+              <p>Hello</p>
               <img src={wave} className='w-16'/>
             </div>
             <p className='text-5xl sm:text-6xl font-semibold'>I'm Jackline Adhiambo</p>
