@@ -4,7 +4,6 @@ import {Link} from 'react-scroll'
 import wave from '../assets/wave.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import hero from "../assets/bg.png"
 
 const Hero = () => {
   useEffect( () =>{
@@ -12,9 +11,8 @@ const Hero = () => {
   }, [])
 
   return (
-    <div id='home' className='w-full h-screen relative bg-[#f9f2ec] text-[#4d3319] font-serif flex justify-center items-center px-4'>
-      <img src={hero} className='w-full h-full object-cover' alt='hero'/>
-        <div className='flex flex-col justify-center items-center py-8 absolute w-full h-full top-0 left-0'>
+    <div id='home' className='w-full h-screen bg-[#f9f2ec] text-[#4d3319] font-serif flex justify-center items-center px-4'>
+        <div className='text-center py-8'>
             <div data-aos="fade-down" className='flex items-center justify-center'>
               <p>Hello</p>
               <img alt='wave' src={wave} className='w-16'/>
