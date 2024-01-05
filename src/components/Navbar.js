@@ -8,7 +8,7 @@ export const Navbar = () => {
       setNav(!nav)
     }
   return (
-    <div className='fixed w-full px-8 py-4 md:px-16 text-[#4d3319] font-serif bg-opacity-70 shadow-md' style={{backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)'}}>
+    <div className='fixed w-full px-8 py-4 md:px-16 text-[#4d3319] font-serif bg-opacity-70 shadow-md' style={{ backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)', zIndex: 1000 /* Set a higher z-index */ }}>
         <div className='flex justify-between items-center'>
             <h1>Qlynn</h1>
             <div className='hidden lg:flex gap-8 cursor-pointer'>
