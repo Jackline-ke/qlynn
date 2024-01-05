@@ -8,10 +8,33 @@ export const Navbar = () => {
       setNav(!nav)
     }
   return (
-    <div className='fixed w-full bg-[#f9f2ec] px-8 py-4 md:px-16 text-[#4d3319] font-serif bg-opacity-70 shadow-md' style={{backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)'}}>
+    <div className='fixed w-full px-8 py-4 md:px-16 text-[#4d3319] font-serif bg-opacity-70 shadow-md' style={{backdropFilter: 'blur(5px)', webkitBackdropFilter: 'blur(5px)'}}>
         <div className='flex justify-between items-center'>
             <h1>Qlynn</h1>
             <div className='hidden lg:flex gap-8 cursor-pointer'>
+                <Link to='home' smooth={true} duration={1000}>
+                    <h2>Home</h2>
+                </Link>
+                <Link to='features' smooth={true} duration={1000}>
+                    <h2>Features</h2>
+                </Link>
+                <Link to='skills' smooth={true} duration={1000}>
+                    <h2>Skills</h2>
+                </Link>
+                <Link to='projects' smooth={true} duration={1000}>
+                    <h2>Projects</h2>
+                </Link>
+                <Link to='contact' smooth={true} duration={1000}>
+                    <h2>Contact</h2>
+                </Link>
+            </div>
+            {/* humburger */}
+            <div onClick={handleNav} className='lg:hidden z-10'>
+                <FaBars size={20} className='cursor-pointer'/>
+            </div>
+            {/* mobile */}
+            <div onClick={handleNav} className={nav ? 'overflow-hidden lg:hidden ease-in duration-300 absolute text-[#f9f2ec] top-0 right-0  w-[40%] bg-[#4d3319]/90 px-4 py-16' : 'absolute left-[-100%] top-0 h-screen ease-in duration-500' }>
+                <div  className='flex flex-col gap-4 cursor-pointer text-lg'>
                 <Link to='home' smooth={true} duration={500}>
                     <h2>Home</h2>
                 </Link>
@@ -27,19 +50,6 @@ export const Navbar = () => {
                 <Link to='contact' smooth={true} duration={500}>
                     <h2>Contact</h2>
                 </Link>
-            </div>
-            {/* humburger */}
-            <div onClick={handleNav} className='lg:hidden z-10'>
-                <FaBars size={20} className='cursor-pointer'/>
-            </div>
-            {/* mobile */}
-            <div onClick={handleNav} className={nav ? 'overflow-hidden lg:hidden ease-in duration-300 absolute text-[#f9f2ec] top-0 right-0  w-[40%] bg-[#4d3319]/90 px-4 py-16' : 'absolute left-[-100%] top-0 h-screen ease-in duration-500' }>
-                <div  className='flex flex-col gap-4 cursor-pointer text-lg'>
-                    <h2>Home</h2>
-                    <h2>Features</h2>
-                    <h2>Skills</h2>
-                    <h2>Projects</h2>
-                    <h2>Contact</h2>
                 </div>
             </div>
         </div>
