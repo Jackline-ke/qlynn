@@ -12,11 +12,21 @@ export const Navbar = () => {
         <div className='flex justify-between items-center'>
             <h1>Qlynn</h1>
             <div className='hidden lg:flex gap-8 cursor-pointer'>
-                <h2>Home</h2>
-                <Link><a href='features'><h2>Features</h2></a></Link>
-                <h2>Skills</h2>
-                <h2>Projects</h2>
-                <h2>Contact</h2>
+                <Link to='home' smooth={true} duration={500}>
+                    <h2>Home</h2>
+                </Link>
+                <Link to='features' smooth={true} duration={500}>
+                    <h2>Features</h2>
+                </Link>
+                <Link to='skills' smooth={true} duration={500}>
+                    <h2>Skills</h2>
+                </Link>
+                <Link to='projects' smooth={true} duration={500}>
+                    <h2>Projects</h2>
+                </Link>
+                <Link to='contact' smooth={true} duration={500}>
+                    <h2>Contact</h2>
+                </Link>
             </div>
             {/* humburger */}
             <div onClick={handleNav} className='lg:hidden z-10'>

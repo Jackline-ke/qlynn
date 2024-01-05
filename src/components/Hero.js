@@ -5,7 +5,7 @@ import wave from '../assets/wave.png'
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen bg-[#f9f2ec] text-[#4d3319] font-serif flex justify-center items-center px-4'>
+    <div id='home' className='w-full h-screen bg-[#f9f2ec] text-[#4d3319] font-serif flex justify-center items-center px-4'>
         <div className='text-center py-8'>
             <div className='flex items-center justify-center'>
               <p>Hi there!</p>
