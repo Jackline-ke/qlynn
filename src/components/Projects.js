@@ -8,9 +8,9 @@ const Projects = () => {
         AOS.init({duration: 2000});
       }, [])
   return (
-    <div data-aos="fade-up" id='projects' className='py-24 w-full h-full text-[#4d3319] font-serif flex flex-col justify-center items-center px-8 md:px-48'>
+    <div id='projects' className='py-24 w-full h-full text-[#4d3319] font-serif flex flex-col justify-center items-center px-8 md:px-48'>
         <h3 className='mb-8 text-4xl'>My <span className='font-bold'>Projects</span></h3>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
+        <div  data-aos="fade-up" className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
             <div className='bg-[#f9f2ec] p-6 rounded-md'>
                 <div className='flex flex-col gap-2'>
                     <img src={market} alt='project' className="rounded"/>
