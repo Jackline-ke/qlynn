@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import project1 from '../assets/project1.png'
 import market from '../assets/marketHub.png'
+import hub from '../assets/inHub.png'
 import AOS from "aos";
 import "aos/dist/aos.css"
 
@@ -22,7 +23,7 @@ const Projects = () => {
             </div>
             <div className='bg-[#f9f2ec] p-8 rounded-md'>
                 <div className='flex flex-col gap-2'>
-                    <img src={market} alt='project' className="rounded"/>
+                    <img src={hub} alt='project' className="rounded"/>
                     <h2 className='text-xl font-bold'>marketHub</h2>
                     <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <h3 className=''><span className='font-bold'>Stack/Tools:</span> React, Tailwind</h3>
