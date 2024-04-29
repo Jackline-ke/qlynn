@@ -3,6 +3,7 @@ import html from '../assets/html.png'
 import css from '../assets/css.png'
 import js from '../assets/js.png'
 import react from '../assets/react.png'
+import sass from '../assets/sass.png'
 import tailwind from '../assets/tailwind.png'
 import figma from '../assets/figma.png'
 import git from '../assets/github.png'
@@ -43,9 +44,9 @@ const Skills = () => {
             </div>
             <div className='flex flex-col gap-2 py-4 px-4 items-center hover:scale-110 duration-500'>
                 <div className='p-4 bg-white rounded-full shadow-sm shadow-[#996633]'>
-                    <img src={react} alt="HTML" className='w-12'/>
+                    <img src={sass} alt="HTML" className='w-12'/>
                 </div>
-                <h2 className=''>Django</h2>
+                <h2 className=''>Sass</h2>
             </div>
             <div className='flex flex-col gap-2 py-4 px-4 items-center hover:scale-110 duration-500'>
                 <div className='p-4 bg-white rounded-full shadow-sm shadow-[#996633]'>

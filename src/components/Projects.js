@@ -15,25 +15,17 @@ const Projects = () => {
         <div  data-aos="fade-up" className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
             <div className='bg-[#f9f2ec] p-6 rounded-md'>
                 <div className='flex flex-col gap-2'>
-                    <img src={project1} alt='project' className="rounded"/>
-                    <h2 className='text-xl font-bold'>marketHub</h2>
-                    <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <h3 className=''><span className='font-bold'>Stack/Tools:</span> React, Tailwind</h3>
+                <a target="_blank" href="https://onlineshop-ashen.vercel.app/" className="cursor-pointer"><img src={project1} alt='project' className="rounded"/></a>
+                    <a target="_blank" href="https://onlineshop-ashen.vercel.app/" className="cursor-pointer"><h2 className='text-xl font-bold'>Onlineshop</h2></a>
+                    <p className=''>OnlineShop offers a seamless and convenient way to explore and shop the latest women's fashion trends. Browse our curated collection of stylish apparel and accessories, all available at your fingertips. With our user-friendly interface, adding products to your cart, adjusting quantities, and managing your selections is effortless.</p>
+                    <h3 className=''><span className='font-bold'>Stack/Tools:</span> React, Sass</h3>
                 </div>
             </div>
             <div className='bg-[#f9f2ec] p-8 rounded-md'>
                 <div className='flex flex-col gap-2'>
-                    <img src={hub} alt='project' className="rounded"/>
-                    <h2 className='text-xl font-bold'>marketHub</h2>
-                    <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <h3 className=''><span className='font-bold'>Stack/Tools:</span> React, Tailwind</h3>
-                </div>
-            </div>
-            <div className='bg-[#f9f2ec] p-8 rounded-md'>
-                <div className='flex flex-col gap-2'>
-                    <img src={market} alt='project' className="rounded"/>
-                    <h2 className='text-xl font-bold'>marketHub</h2>
-                    <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a target="_blank" href="https://innovate-hub-beige.vercel.app/" className="cursor-pointer"><img src={hub} alt='project' className="rounded"/></a>
+                    <a target="_blank" href="https://innovate-hub-beige.vercel.app/" className="cursor-pointer"><h2 className='text-xl font-bold'>InnovateHub</h2></a>
+                    <p className=''>InnovateHub is a landing page showcasing cutting-edge IT and tech service solutions tailored to meet the evolving needs of businesses in today's digital era of an organization.</p>
                     <h3 className=''><span className='font-bold'>Stack/Tools:</span> React, Tailwind</h3>
                 </div>
             </div>
