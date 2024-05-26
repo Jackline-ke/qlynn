@@ -27,9 +27,9 @@ export const Navbar = () => {
                 <Link to='projects' smooth={true} duration={2000}>
                     <h2>Projects</h2>
                 </Link>
-                <Link to='contact' smooth={true} duration={2000}>
+                {/* <Link to='contact' smooth={true} duration={2000}>
                     <h2>Contact</h2>
-                </Link>
+                </Link> */}
             </div>
             {/* humburger */}
             <div onClick={handleNav} className='lg:hidden z-10'>
@@ -50,9 +50,9 @@ export const Navbar = () => {
                 <Link to='projects' smooth={true} duration={2000} onClick={closeNav}>
                     <h2>Projects</h2>
                 </Link>
-                <Link to='contact' smooth={true} duration={2000} onClick={closeNav}>
+                {/* <Link to='contact' smooth={true} duration={2000} onClick={closeNav}>
                     <h2>Contact</h2>
-                </Link>
+                </Link> */}
                 </div>
             </div>
         </div>

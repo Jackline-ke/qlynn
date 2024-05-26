@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import project1 from '../assets/project1.png'
-import market from '../assets/marketHub.png'
+//import market from '../assets/marketHub.png'
 import hub from '../assets/inHub.png'
 import AOS from "aos";
 import "aos/dist/aos.css"
@@ -29,6 +29,7 @@ const Projects = () => {
                     <h3 className=''><span className='font-bold'>Stack/Tools:</span> React, Tailwind</h3>
                 </div>
             </div>
+            <div></div>
         </div>
     </div>
   )
