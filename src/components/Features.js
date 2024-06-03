@@ -17,17 +17,17 @@ const Features = () => {
             <div className='border border-[#f9f2ec] rounded-md py-4 px-4 md:px-8 md:py-8 flex flex-col gap-2 items-center justify-center hover:bg-[#4d3319] hover:text-[#ffffff] cursor-pointer hover:scale-90 duration-500'>
                 <HomeRepairServiceIcon className=""/>
                 <h2 className='text-center text-xl font-bold'>Creative Work</h2>
-                <p className='text-center'>A Frontend Developer with expertise in crafting engaging user experiences.</p>
+                <p className='text-center'>Proficient in translating complex UI designs into interactive and responsive web pages .</p>
             </div>
             <div className='border border-[#f9f2ec] rounded-md py-4 px-4 md:px-8 md:py-8 flex flex-col gap-2 items-center justify-center hover:bg-[#4d3319] hover:text-[#ffffff] cursor-pointer hover:scale-90 duration-500'>
                 <DiamondIcon className=""/>
                 <h2 className='text-center text-xl font-bold'>Strong Dedication</h2>
-                <p className='text-center'>A Frontend Developer with expertise in crafting engaging user experiences.</p>
+                <p className='text-center'>Committed to delivering high-quality code with a strong emphasis on performance optimization and user accessibility standards</p>
             </div>
             <div className='border border-[#f9f2ec] rounded-md py-4 px-4 md:px-8 md:py-8 flex flex-col gap-2 items-center justify-center hover:bg-[#4d3319] hover:text-[#ffffff] cursor-pointer hover:scale-90 duration-500'>
                 <SettingsIcon className=""/>
                 <h2 className='text-center text-xl font-bold'>Deeper Skillset</h2>
-                <p className='text-center'>A Frontend Developer with expertise in crafting engaging user experiences.</p>
+                <p className='text-center'>Skilled in utilizing modern development tools and libraries to build scalable and maintainable applications.</p>
             </div>
         </div>
     </div>
